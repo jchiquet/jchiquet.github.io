@@ -4,7 +4,7 @@ title: research
 permalink: /research/
 description: A selection of past and current funded projects
 nav: true
-display_categories: [anr, 'past-anr']
+display_categories: ['Current', 'anr (past)']
 horizontal: true
 nav_order: 2
 ---

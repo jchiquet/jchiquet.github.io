@@ -5,6 +5,6 @@ description: 'Gene signatures for Rheumatoid Arthritis from heterogeneous genomi
 img: /assets/img/jonathan_plaissais.jpg
 redirect: https://www.linkedin.com/in/jonathanplassais/
 importance: 3
-category: 'PhD student'
+category: 'PhD student (alumni)'
 ---
 

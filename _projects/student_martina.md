@@ -4,7 +4,7 @@ title: Martina Sundqvist
 description: Modeling and inferring Sampling design in probabilistic random network models (2017-2020)
 img: /assets/img/martina_sundqvist.jpg
 importance: 2
-category: 'PhD student'
+category: 'PhD student (alumni)'
 ---
 
 Martina's PhD was co-supervised with [Thierry

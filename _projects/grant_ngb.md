@@ -5,5 +5,5 @@ description: Next Generation Biomonitoring of change in ecosystem structure and 
 img: /assets/img/anr_ngb.jpg
 redirect: https://anr.fr/Project-ANR-17-CE32-0011
 importance: 1
-category: anr
+category: 'anr (past)'
 ---

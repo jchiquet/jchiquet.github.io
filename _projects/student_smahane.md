@@ -4,7 +4,7 @@ title: Smahane Chalabi
 description: 'Characterizing gene expression reprogramming induced by allopolyploïdy for the wheat (2010-2014)'
 img: /assets/img/smahane_chalabi.jpg
 importance: 3
-category: 'PhD student'
+category: 'PhD student (alumni)'
 ---
 
 Smahane's PhD was co-supervised with [Boulos

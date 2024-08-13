@@ -4,7 +4,7 @@ title: Marie Perrot-Dockes
 description: 'Regularization tools for multivariate analysis: application to multi-omics (2016-2019)'
 img: /assets/img/marie_perrot-dockes.png
 importance: 2
-category: 'PhD student'
+category: 'PhD student (alumni)'
 ---
 
 Marie's PhD was co-supervised with [Céline

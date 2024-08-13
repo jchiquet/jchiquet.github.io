@@ -4,7 +4,7 @@ title: students
 permalink: /students/
 description: past and current graduated students
 nav: true
-display_categories: ['PhD student', postdoc]
+display_categories: ['PhD student (current)', 'PhD student (alumni)', 'Post-Doc']
 horizontal: true
 ---
 

@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Bastien Batardière
-description: Apprentissage statistique pour l'analyse multivariée de données de comptage de grande dimension  (2021-xx)
+description: Apprentissage statistique pour l'analyse multivariée de données de comptage de grande dimension  (2021-2024, 50%)
 img: /assets/img/bastien_batardiere.jpg
 importance: 2
-category: 'PhD student'
+category: 'PhD student (current)'
 ---
 
-Bastien's PhD is supported by the [ANR SingleStatOmics grant](https://anr-singlestatomics.pages.math.cnrs.fr/).
+Bastien's PhD is supported by the [ANR SingleStatOmics grant](https://anr-singlestatomics.pages.math.cnrs.fr/). IT is co-supervized with [Joon Kwon](https://joon-kwon.github.io/).
 
 ### PhD manucript
 
