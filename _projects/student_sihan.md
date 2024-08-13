@@ -2,7 +2,7 @@
 layout: page
 title: Sihan Xie
 description: 'DeepSelectGene: Apprentissage profond à partir de données de génotypes
-  et application à la sélection génomique (2023-xx, 20% with E. Barrey and B. Hanczar)'
+  et application à la sélection génomique (2023-xx, 25%)'
 img: /assets/img/sihan_xie.png
 importance: 2
 category: 'PhD student (current)'
