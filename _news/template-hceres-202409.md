@@ -6,5 +6,7 @@ inline: true
 
 Happy to share a [quarto template for HCERES report](https://github.com/jchiquet/quarto-hceres), based on a home-made LaTex sheet and Pandoc, that let you include gently markdown, code, equation, on-the-fly plots and let you handle bibliographical items extracted from HAL with BibLaTeX. Easy to install with the quarto installer.
 
+[The rendered document is here ](https://jchiquet.github.io/quarto-hceres/), if you want a quick look.
+
 This was clearly the most exciting part of writing the report for my laboratory. I hope this helps some colleagues, so please feel free to use and contribute.
 
