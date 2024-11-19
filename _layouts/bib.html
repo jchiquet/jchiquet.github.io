@@ -148,6 +148,9 @@
           {% if entry.biorxiv %}
           <a href="https://www.biorxiv.org/content/{{ entry.biorxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">bioRxiv</a>
           {% endif %}
+          {% if entry.doi %}
+            <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank">DOI</a>
+          {% endif %}
           {% if entry.hal %}
             <a href="https://hal.archives-ouvertes.fr/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HAL</a>
           {% endif %}
