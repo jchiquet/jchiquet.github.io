@@ -5,5 +5,5 @@ description: New methodologies combining statistics, machine learning, optimal t
 img: /assets/img/anr_singleStatOmics.jpg
 redirect: https://anr-singlestatomics.pages.math.cnrs.fr/
 importance: 1
-category: 'Current'
+category: 'anr (past)'
 ---
