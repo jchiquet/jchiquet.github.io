@@ -29,12 +29,12 @@ social: false  # includes social icons at the bottom of the page
 
 ## research interests
 
-- statistics and machine learning :desktop_computer: 
+- statistics and machine learning :desktop_computer:
    - sparse methods and regularization
    - multivariate analysis
    - latent variable models
    - optimization and algorithms
-- applications to life sciences :seedling: :bee: 
+- applications to life sciences :seedling: :bee:
    - ecology, environment
    - metagenomics, metabolomics, genomics
 - reproducible research :gear:

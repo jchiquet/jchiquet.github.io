@@ -28,4 +28,3 @@ Chaloub](https://www6.inra.fr/mia-paris/Equipes/Membres/Pierre-Barbillon)
 {% bibliography -f chiquet_journal -q @*[author ~= Chalabi]* %}
 
 </div>
-

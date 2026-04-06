@@ -7,7 +7,7 @@ output: html_document
 
 ## Exercice 1: absorption de dioxyde de carbone chez les graminées.
 
-1. Combien y a t-il d'individus ? Quelles sont les variables qualitatives ? Quantitatives ? 
+1. Combien y a t-il d'individus ? Quelles sont les variables qualitatives ? Quantitatives ?
 
 ```{r}
 # réponse ici
@@ -33,23 +33,23 @@ output: html_document
 # réponse ici #
 ```
 
-4.  a) Représenter l'évolution de l'absorption en $\text{CO}_2$ en fonction de la concentration en $\text{CO}_2$ à l'aide d'un nuage de points (ou diagramme de dispersion). 
+4.  a) Représenter l'évolution de l'absorption en $\text{CO}_2$ en fonction de la concentration en $\text{CO}_2$ à l'aide d'un nuage de points (ou diagramme de dispersion).
 
 ```{r}
 # réponse ici #
 ```
-    
+
   b) Transformer la variable `conc` en facteur. Combien y a-t-il de niveaux ? Représenter  à nouveau l'évolution de l'absorption en $\text{CO}_2$ en fonction de la concentration en $\text{CO}_2$ à l'aide de boxplot pour chaque niveau de concentration.
 
 ```{r}
 # réponse ici
 ```
-    
+
   c) Commenter ces deux graphes
 
 COMMENTAIRES
 
-5.  a) Représenter la distribution de l'absorption en $\text{CO}_2$ pour les deux type de traitements. 
+5.  a) Représenter la distribution de l'absorption en $\text{CO}_2$ pour les deux type de traitements.
 
 ```{r}
 # réponse ici
@@ -94,10 +94,10 @@ E <- function(i, j, lambda, n) {
 }
 ```
 
-2. Quelle matrice notée $\mathbf{A}$ peut-elle se décomposer en les éléments suivants 
-\[ 
+2. Quelle matrice notée $\mathbf{A}$ peut-elle se décomposer en les éléments suivants
+\[
 \mathbf{E}^{(21)}_{-2}  \mathbf{E}^{(13)}_{-1} \mathbf{E}^{(23)}_{2} \mathbf{E}^{(12)}_{1} \mathbf{E}^{(32)}_{1}
-\]  
+\]
 
 ```{r}
 # réponse ici

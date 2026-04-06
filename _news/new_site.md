@@ -5,4 +5,3 @@ inline: true
 ---
 
 I now use [aI-folio](https://github.com/alshedivat/al-folio) for my professional website :sparkles:
-

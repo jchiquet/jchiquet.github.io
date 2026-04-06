@@ -7,7 +7,7 @@ importance: 3
 category: teaching
 ---
 
-### <span class="glyphicon glyphicon-calendar">Planning prévisionnel 
+### <span class="glyphicon glyphicon-calendar">Planning prévisionnel
 
 <table class="table table-striped">
     <tbody>
@@ -22,7 +22,7 @@ category: teaching
 	<th><span class="glyphicon glyphicon-download-alt"></span> PDF imprimable</th>
 	</tr>
     </thead>
-    
+
     <tr>
         <td>1</td>
         <td>09/09/2015</td>
@@ -39,7 +39,7 @@ category: teaching
 	<td>vecteurs</td>
         <td><a href="/assets/isv51/td2-vecteurs.html">html</a></td>
         <td><a href="/assets/isv51/td2-vecteurs.pdf">fiche</a> - <span class="glyphicon glyphicon-pencil"></span><a href="/assets/isv51/corrections_td2-vecteurs.pdf">corrections</a></td>
-	
+
      </tr>
 
       <tr>
@@ -122,7 +122,7 @@ category: teaching
    </tbody>
 </table>
 
-### <span class="glyphicon glyphicon-download-alt"></span> Support de cours 
+### <span class="glyphicon glyphicon-download-alt"></span> Support de cours
 
 * [fiche résumé des commandes usuelles en R](/assets/pdf/commandes_r.pdf)
 * jeu de slides 0: [Introduction et premiers pas](/assets/isv51/slides0-intro.pdf)
@@ -130,7 +130,7 @@ category: teaching
 * jeu de slides 2: [Analyse de données élémentaire](/assets/isv51/slides2-stat_desc.pdf)
 * jeu de slides 3: [Développement et programmation](/assets/isv51/slides3-programmation.pdf)
 
-### <span class="glyphicon glyphicon-user"></span> Intervenant 
+### <span class="glyphicon glyphicon-user"></span> Intervenant
 
 Cours et TD: <julien.chiquet@gmail.com>
 
@@ -169,4 +169,3 @@ Cours et TD: <julien.chiquet@gmail.com>
 
 * un guide pour développer sa propre bibliothèque : [Writing R extensions](http://cran.r-project.org/doc/manuals/R-exts.pdf),
 * le guide d'installation et d'administration du logiciel : [R Installation and Administration](http://cran.r-project.org/doc/manuals/R-admin.pdf).
-

@@ -1,7 +1,7 @@
 "Barbillon":
   - firstname: ["Pierre", "P."]
     url: https://www6.inrae.fr/mia-paris/Equipes/Membres/Pierre-Barbillon
-    
+
 "Matias":
   - firstname: ["Catherine", "C."]
     url: http://cmatias.perso.math.cnrs.fr/
@@ -65,5 +65,3 @@
 "Chadeau-Hyam":
   - firstname: ["Marc", "M."]
     url: https://www.imperial.ac.uk/people/m.chadeau
-
-    

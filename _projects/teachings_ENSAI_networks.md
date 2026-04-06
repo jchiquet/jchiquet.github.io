@@ -7,4 +7,3 @@ redirect: https://github.com/jchiquet/CourseStatNetwork
 importance: 3
 category: teaching
 ---
-
