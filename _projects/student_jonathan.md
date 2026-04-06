@@ -7,4 +7,3 @@ redirect: https://www.linkedin.com/in/jonathanplassais/
 importance: 3
 category: 'PhD student (alumni)'
 ---
-

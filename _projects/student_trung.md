@@ -6,4 +6,3 @@ redirect: https://www.biblio.univ-evry.fr/theses/2016/2016SACLE050.pdf
 importance: 3
 category: 'PhD student'
 ---
-

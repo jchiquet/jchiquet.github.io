@@ -6,4 +6,3 @@ redirect: https://github.com/jchiquet/aricode
 importance: 2
 category: code
 ---
-

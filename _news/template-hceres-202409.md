@@ -9,4 +9,3 @@ Happy to share a [quarto template for HCERES report](https://github.com/jchiquet
 [The rendered document is here ](https://jchiquet.github.io/quarto-hceres/), rendered by CI with gh-actions, if you want a quick look.
 
 This was clearly the most exciting part of writing the report for my laboratory. I hope this helps some colleagues, so please feel free to use and contribute.
-

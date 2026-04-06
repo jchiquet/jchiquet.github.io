@@ -5,4 +5,3 @@ inline: true
 ---
 
 I gave a talk at the [EcoDep conference](https://doukhan.u-cergy.fr/conference2021.html) about [Poisson lognormal models (again...)](assets/pdf/Chiquet_ecodep.pdf) :sparkles:
-
