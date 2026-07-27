@@ -1,10 +1,23 @@
+@thesis{batardiere2024,
+  abbr = {PhD thesis},
+  title={Machine learning for multivariate analysis of high-dimensional count data},
+  author={Batardière, Bastien},
+  year={2024},
+  school={Université Paris-Saclay},
+  website = {https://theses.fr/2024UPASM047},
+  abstract = {This thesis develops statistical and computational tools for the analysis of high-dimensional multivariate count data, within the framework of the Poisson Log-Normal (PLN) model and its variational inference. It introduces a Zero-Inflated PLN (ZIPLN) extension to account for excess zeros frequently observed in real count data (e.g., microbiome or single-cell data), an adaptive optimization method (AdaLVR) that improves the scalability of variational inference to datasets with several thousand variables, and corrected variational estimators for quantifying parameter uncertainty. The resulting methods are implemented in the PLNmodels and pyPLNmodels R/Python packages and applied to genomic, ecological, and microbiome count datasets.},
+  abstract_fr = {Cette thèse développe des outils statistiques et computationnels pour l'analyse de données de comptage multivariées en grande dimension, dans le cadre du modèle Poisson log-normal (PLN) et de son inférence variationnelle. Elle introduit une extension PLN à inflation de zéros (ZIPLN) pour tenir compte de l'excès de zéros fréquemment observé dans les données de comptage réelles (microbiome, données single-cell), une méthode d'optimisation adaptative (AdaLVR) qui améliore le passage à l'échelle de l'inférence variationnelle pour des jeux de données à plusieurs milliers de variables, et des estimateurs variationnels corrigés pour quantifier l'incertitude des paramètres. Les méthodes proposées sont implémentées dans les packages R/Python PLNmodels et pyPLNmodels et appliquées à des données de comptage génomiques, écologiques et de microbiome.}
+}
+
 @thesis{tabouy2019,
   abbr = {PhD thesis},
   title={Impact de l'échantillonnage sur l'inférence de structures dans les réseaux: application aux réseaux d'échanges de graines et à l'écologie},
   author={Tabouy, Timothée},
   year={2019},
   school={Université Paris-Saclay},
-  tel = {tel-02414300}
+  tel = {tel-02414300},
+  abstract = {This thesis studies the Stochastic Block Model (SBM) for network data collected under an imperfect, partially observed sampling design. Building on a variational inference framework, it develops estimators that explicitly account for the sampling process, so that latent block structure can be recovered without inferring artefactual clusters induced by missing pairs of observations. The thesis introduces a generic characterization of sampling designs and studies their identifiability with respect to the SBM parameters, and provides the missSBM R package implementing the resulting methodology. Applications are given to seed exchange networks and ecological interaction networks, where sampling is typically incomplete and non-random.},
+  abstract_fr = {Cette thèse étudie le modèle à blocs stochastiques (SBM) pour des données de réseaux recueillies selon un plan d'échantillonnage imparfait et partiellement observé. En s'appuyant sur un cadre d'inférence variationnelle, elle développe des estimateurs qui tiennent explicitement compte du processus d'échantillonnage, afin de retrouver la structure latente en blocs sans inférer de regroupements artefactuels dus aux paires d'observations manquantes. La thèse propose une caractérisation générique des plans d'échantillonnage et étudie leur identifiabilité vis-à-vis des paramètres du SBM, et fournit le package R missSBM qui met en œuvre cette méthodologie. Des applications sont proposées sur des réseaux d'échanges de graines et des réseaux d'interactions écologiques, où l'échantillonnage est typiquement incomplet et non aléatoire.}
 }
 
 @thesis{perrot2019,
@@ -13,7 +26,9 @@
   author={Perrot-Dockès, Marie},
   year={2019},
   school={Université Paris-Saclay},
-  tel = {tel-02384541}
+  tel = {tel-02384541},
+  abstract = {This thesis develops regularized methods for variable selection in high-dimensional multivariate linear models, where the response is a vector of correlated outcomes rather than a single variable. It proposes procedures that jointly estimate the regression coefficients and the covariance structure of the residuals, improving selection accuracy when responses are strongly dependent, and establishes theoretical guarantees for the resulting estimators. The methodology is implemented in the MultiVarSel R package and applied to metabolomics data (LC-MS), where it is used to identify which molecular features are jointly associated with experimental conditions while accounting for the complex correlation structure between metabolites.},
+  abstract_fr = {Cette thèse développe des méthodes régularisées de sélection de variables pour les modèles linéaires multivariés en grande dimension, où la réponse est un vecteur de variables corrélées plutôt qu'une seule variable. Elle propose des procédures qui estiment conjointement les coefficients de régression et la structure de covariance des résidus, améliorant la précision de sélection lorsque les réponses sont fortement dépendantes, et établit des garanties théoriques pour les estimateurs proposés. La méthodologie est implémentée dans le package R MultiVarSel et appliquée à des données de métabolomique (LC-MS), où elle permet d'identifier les composés moléculaires conjointement associés aux conditions expérimentales tout en tenant compte de la structure de corrélation complexe entre métabolites.}
 }
 
 @thesis{sundqvist2020,
@@ -22,7 +37,9 @@
   author={Sundqvist, Martina},
   year={2020},
   school={Université Paris-Saclay},
-  tel = {tel-03164674}
+  tel = {tel-03164674},
+  abstract = {This thesis addresses the problem of selecting the number of groups in unsupervised clustering and assessing the stability of the resulting partitions, with an application to the molecular classification of triple-negative breast cancers from proteomic data. It introduces stability-based criteria to choose a robust number of clusters and proposes the Multinomial Adjusted Rand Index (MARI), a corrected version of the classical Adjusted Rand Index that removes an unrealistic hypergeometric assumption on cluster sizes, giving a more accurate measure of agreement between clusterings. These tools are used to build a robust, reproducible subtyping of triple-negative breast cancer patients.},
+  abstract_fr = {Cette thèse s'intéresse au choix du nombre de groupes en classification non supervisée et à l'évaluation de la stabilité des partitions obtenues, avec une application à la classification moléculaire des cancers du sein triple-négatifs à partir de données protéomiques. Elle introduit des critères fondés sur la stabilité pour choisir un nombre de clusters robuste et propose l'indice de Rand ajusté multinomial (MARI), une version corrigée de l'indice de Rand ajusté classique qui supprime une hypothèse hypergéométrique peu réaliste sur la taille des groupes, offrant une mesure plus fidèle de l'accord entre partitions. Ces outils sont utilisés pour construire une classification robuste et reproductible des patientes atteintes de cancer du sein triple-négatif.}
 }
 
 @thesis{hulot2020,
@@ -31,7 +48,9 @@
   author={Hulot, Audrey},
   year={2020},
   school={Université Paris-Saclay},
-  tel = {tel-03224181}
+  tel = {tel-03224181},
+  abstract = {This thesis develops statistical methods for the analysis of high-dimensional omics data, focusing on two complementary tasks: consensus clustering and network inference. It introduces a fast tree aggregation method that combines several hierarchical clustering trees, obtained for instance from different data types or resampled datasets, into a single consensus tree, with an efficient algorithm implemented in the mergeTrees R package. The thesis also contributes methods for inferring biological association networks from omics data, and illustrates both lines of work on real transcriptomic and proteomic datasets.},
+  abstract_fr = {Cette thèse développe des méthodes statistiques pour l'analyse de données omiques en grande dimension, autour de deux tâches complémentaires : la classification consensus et l'inférence de réseaux. Elle propose une méthode rapide d'agrégation d'arbres permettant de combiner plusieurs arbres de classification hiérarchique, obtenus par exemple à partir de différents types de données ou de rééchantillonnages, en un arbre consensus unique, avec un algorithme efficace implémenté dans le package R mergeTrees. La thèse contribue également des méthodes d'inférence de réseaux d'associations biologiques à partir de données omiques, et illustre ces deux axes sur des données transcriptomiques et protéomiques réelles.}
 }
 
 @thesis{ha2016,
@@ -42,7 +61,9 @@
   author={Ha, Trung},
   year={2016},
   school={Université Paris-Saclay},
-  website = {http://www.theses.fr/2016SACLE050}
+  website = {http://www.theses.fr/2016SACLE050},
+  abstract = {This thesis develops a penalized multivariate learning approach that jointly infers gene expression levels and the underlying gene regulatory network, rather than treating network inference as a separate step performed on already-estimated expression data. By coupling the two estimation problems within a single penalized framework, the approach aims to improve the accuracy of both the expression estimates and the inferred regulatory relationships, particularly when expression data are noisy or partially observed.},
+  abstract_fr = {Cette thèse développe une approche d'apprentissage multivarié pénalisé qui infère conjointement les niveaux d'expression génique et le réseau de régulation génétique sous-jacent, plutôt que de traiter l'inférence du réseau comme une étape séparée réalisée sur des données d'expression déjà estimées. En couplant les deux problèmes d'estimation au sein d'un même cadre pénalisé, l'approche vise à améliorer la précision à la fois des estimations d'expression et des relations de régulation inférées, en particulier lorsque les données d'expression sont bruitées ou partiellement observées.}
 }
 
 @thesis{chalabi14,
@@ -51,16 +72,20 @@
   author={Chalabi, Smahane},
   year={2014},
   school={Université d'Évry-Val-d'Essonne},
+  abstract = {This thesis investigates how gene expression is reprogrammed following allopolyploidization in wheat, the process by which a new species arises from the combination and duplication of two parental genomes. Using transcriptomic data from newly formed and stabilized wheat allopolyploids, it characterizes patterns of non-additive gene expression -- genes whose expression in the hybrid departs from the simple average of the parental levels -- and relates these patterns to genome-wide gene expression additivity previously observed in genetically stable wheat allohexaploids.},
+  abstract_fr = {Cette thèse étudie comment l'expression des gènes est reprogrammée à la suite de l'allopolyploïdisation chez le blé, processus par lequel une nouvelle espèce naît de la combinaison et de la duplication de deux génomes parentaux. À partir de données transcriptomiques d'allopolyploïdes de blé nouvellement formés et stabilisés, elle caractérise les profils d'expression non additive -- gènes dont l'expression chez l'hybride s'écarte de la simple moyenne des niveaux parentaux -- et relie ces profils à l'additivité globale de l'expression génique précédemment observée chez des allohexaploïdes de blé génétiquement stables.}
 }
 
 @thesis{charbonnier2012,
   abbr = {PhD thesis},
   title={Inférence de réseaux de régulation génétique à partir de
                   données du transcriptome non indépendamment et
-                  indentiquement distribuées},
+                  identiquement distribuées},
   author={Charbonnier, Camille},
   year={2012},
   school={Université d'Évry-Val-d'Essonne},
-  website = {http://www.theses.fr/2012EVRY0022}
+  website = {http://www.theses.fr/2012EVRY0022},
+  abstract = {This thesis develops statistical methods for inferring gene regulatory networks from transcriptomic data that violate the classical independent and identically distributed (iid) sampling assumption, in particular time-course and structured experimental designs. It proposes weighted-Lasso and cooperative-Lasso penalized estimators of Gaussian graphical models that incorporate prior structural information (temporal ordering, replicate structure) to improve network recovery, together with model selection procedures adapted to these dependent settings. The resulting methods are implemented in the SIMoNe R package and applied to real transcriptomic time-course data.},
+  abstract_fr = {Cette thèse développe des méthodes statistiques pour l'inférence de réseaux de régulation génétique à partir de données transcriptomiques qui ne vérifient pas l'hypothèse classique d'échantillons indépendants et identiquement distribués (iid), en particulier les dispositifs expérimentaux en série temporelle ou structurés. Elle propose des estimateurs de modèles graphiques gaussiens pénalisés par Lasso pondéré et Lasso coopératif, qui intègrent une information structurelle a priori (ordre temporel, structure de réplicats) pour améliorer la reconstruction du réseau, ainsi que des procédures de sélection de modèle adaptées à ces contextes dépendants. Les méthodes proposées sont implémentées dans le package R SIMoNe et appliquées à des données transcriptomiques réelles en série temporelle.}
 }
 
