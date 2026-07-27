@@ -2,56 +2,47 @@
 layout: page
 title: research
 permalink: /research/
-description: A selection of past and current funded projects
+description: Funded research projects, past and current
 nav: true
-display_categories: ['Current', 'anr (past)']
-horizontal: true
 nav_order: 2
 ---
 
-<div class="projects">
-{%- if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.projects | where: "category", category -%}
-  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.liquid %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.liquid %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-  {% endfor %}
+{% for group in site.data.projects %}
+<h2 class="category">{{ group.heading }}</h2>
 
-{%- else -%}
-<!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.liquid %}
-    {%- endfor %}
+<ul class="list-group list-group-flush">
+  {% for entry in group.entries %}
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-xs-2 col-sm-2 col-md-2 text-center">
+        <span class="badge font-weight-bold text-uppercase align-middle" style="min-width: 75px;">{{ entry.dates }}</span>
+      </div>
+      <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+        {% if entry.url %}
+        <h6 class="title font-weight-bold ml-1 ml-md-4">
+          <a href="{{ entry.url }}" target="_blank" rel="external nofollow noopener">{{ entry.title }}</a>
+        </h6>
+        {% else %}
+        <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6>
+        {% endif %}
+
+        {% if entry.subtitle %}
+        <p class="ml-1 ml-md-4" style="font-style: italic;">{{ entry.subtitle }}</p>
+        {% endif %}
+
+        <p class="ml-1 ml-md-4" style="font-size: 0.9rem;">
+          <strong>{{ entry.funding }}</strong>
+          {% if entry.leader %} &middot; Led by {{ entry.leader }}{% endif %}
+          {% if entry.partners %} &middot; {{ entry.partners }}{% endif %}
+          {% if entry.involvement %} &middot; {{ entry.involvement }}{% endif %}
+        </p>
+
+        {% if entry.description %}
+        <p class="ml-1 ml-md-4">{{ entry.description }}</p>
+        {% endif %}
+      </div>
     </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.liquid %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-{%- endif -%}
-</div>
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}

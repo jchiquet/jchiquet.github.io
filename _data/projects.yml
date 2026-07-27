@@ -1,0 +1,189 @@
+# Research projects, derived from ~/Repos/curriculum/data/grants.yml
+# (cleaned up: English only, LaTeX CV macros expanded/removed)
+
+- category: ongoing
+  heading: Ongoing Projects
+  entries:
+    - title: DISCERN
+      subtitle: Discovering the causes of three poorly understood cancers in Europe
+      url: https://discern.iarc.who.int/
+      dates: "2023–2027"
+      funding: Horizon Europe
+      partners: 20 partners
+      involvement: "Team leader, €250,000 for MIA Paris-Saclay"
+      description: >
+        DISCERN investigates the causes of three poorly understood cancers (renal, pancreatic,
+        colorectal) and the geographical disparities in their incidence across Europe, notably the
+        higher rates observed in Central and Eastern Europe. The 20-institution consortium,
+        coordinated by IARC, combines epidemiological, exposomic and multi-omics approaches within
+        the Horizon Europe Mission on Cancer. I co-lead the methodological work package with
+        Imperial College.
+    - title: CoBreeding
+      url: https://www.pepr-agroeconum.fr/les-projets-finances/socio-ecosysteme/projets-cibles/cobreeding
+      dates: "2024–2027"
+      funding: PEPR Agroécologie Numérique
+      partners: GQE Le Moulon, HeuDiaSyC (UTC)
+      description: >
+        CoBreeding develops statistical and deep learning methods to predict the performance of maize
+        hybrids from pools of parental lines, combining mixed models from quantitative genetics with
+        neural network architectures, and transferring information between US and European maize line
+        populations. Funds the PhD of François Victor.
+    - title: HEPATOTWIN
+      url: https://digitbio.hub.inrae.fr/rubriques-verticales2/nos-actions/projets-phares/projet-phare-hepato-twin-2024-2028
+      dates: "2024–2027"
+      funding: INRAE Metaprogramme DIGIT-BIO
+      partners: INRAE (Toxalim, MIA-PS, NumeCan, UNH, TBI)
+      description: >
+        HEPATOTWIN gathers INRAE units in toxicology, applied mathematics and nutrition to develop
+        modelling approaches for liver toxicology.
+
+- category: past
+  heading: Past Projects
+  entries:
+    - title: "EXPANSE"
+      subtitle: "EXposome Powered tools for healthy living in urbAN SEttings"
+      url: https://expanseproject.eu/
+      dates: "2020–2025"
+      funding: Horizon H2020
+      partners: Imperial College, Utrecht, Columbia, Inserm, IARC + 15 others
+      description: >
+        EXPANSE studies how the urban exposome -- environmental exposures specific to city living --
+        affects cardiometabolic and pulmonary disease, Europe's leading disease burden. It combines
+        exposome and health data from over 55 million Europeans, multi-omics data from 2 million
+        individuals, and personalized exposure assessment for 5,000 participants across five urban
+        regions.
+    - title: "G2WAS"
+      subtitle: "Grape Genes for WAter Scarcity"
+      url: https://anr.fr/Project-ANR-19-CE20-0024
+      dates: "2020–2024"
+      funding: ANR
+      partners: MIA Paris-Saclay, AGAP, LEPSE (INRAE)
+      involvement: "Team leader, €60,000 for MIA-Paris"
+      description: >
+        G2WAS aims to identify the genetic regulators of grapevine adaptation to water deficit
+        through genome-wide association studies (GWAS), to support the breeding of drought-tolerant
+        varieties in the context of climate change.
+    - title: "SingleStatOmics"
+      url: http://anr-singlestatomics.pages.math.cnrs.fr
+      dates: "2019–2024"
+      funding: ANR
+      partners: University of Lyon 1, Mines ParisTech, ENS Lyon, AgroParisTech/INRA
+      involvement: "12 months, co-PI and team leader, €210,000 for MIA-Paris"
+      description: >
+        SingleStatOmics develops statistical and machine learning methods for single-cell genomics, to
+        study cell identity, cell differentiation dynamics, gene regulation and single-cell
+        epigenomics, combining expertise in statistics, machine learning and optimal transport.
+    - title: "Behind the Count'her"
+      subtitle: "Estimating genetic parameters for high-dimensional count data with the Poisson-lognormal model"
+      dates: "2023–2024"
+      funding: INRAE Metaprogramme DIGIT-BIO
+      partners: INRAE (GenPhyse, MIA-PS, MaIAGE), Sorbonne U
+    - title: "EcoNet"
+      subtitle: "Advanced statistical modelling of ecological networks"
+      url: https://cmatias.perso.math.cnrs.fr/ANR_EcoNet.html
+      dates: "2019–2023"
+      funding: ANR
+      partners: Sorbonne, Lyon 1 and Lille Universities, AgroParisTech/INRAE, ISEM, IEES
+      description: >
+        EcoNet develops statistical methods for the analysis of ecological networks (trophic,
+        mutualistic, competitive, host-parasite), integrating space and time, multiple interaction
+        types, covariate information and sampling effects, to predict how ecosystems respond to
+        environmental change.
+    - title: "PEERSIM"
+      subtitle: "Characterizing multiple stress in plants"
+      dates: "2022–2023"
+      funding: INRAE Metaprogramme DIGIT-BIO
+      partners: INRAE (IPS2, MIA-PS, MIAT), IMT
+    - title: "GENIALEARN"
+      subtitle: "Merits and limits of statistical and deep learning for multi-trait genomic selection"
+      dates: "2022–2023"
+      funding: INRAE Metaprogramme DIGIT-BIO
+      partners: INRAE (GABI, MIA-PS), UEVE
+    - title: "BovMovie2Pred"
+      subtitle: "Early bovine development and viability: exploration and prediction"
+      dates: "2022–2023"
+      funding: INRAE Metaprogramme DIGIT-BIO
+      partners: INRAE (MaIAGE, MIA-PS, BREED)
+    - title: "Next-Gen. Biomonitoring"
+      subtitle: "Biomonitoring of change in ecosystem structure and function"
+      dates: "2018–2022"
+      funding: ANR
+      partners: AgroParisTech, INRAE (Dijon, Bordeaux, Rennes, Réunion), Imperial College, Cirad
+      description: >
+        Next Generation Biomonitoring combines high-throughput sequencing with statistical network
+        reconstruction to detect ecosystem change across six ecosystems (microbial to
+        macro-invertebrate), covering drivers such as invasion, disease, conservation and climate
+        change.
+    - title: "KineTicks"
+      subtitle: "Network and modelling analyses to describe the dynamics of Ixodes ricinus microbiome and its influence on pathogen evolution"
+      dates: "2018–2019"
+      funding: INRA Metaprogramme MEM
+      partners: INRAE (BIPAR, MaIAGE, MIAP)
+    - title: "SEARS"
+      subtitle: "Sampling strategies and network analysis of seed exchange networks"
+      dates: "2017–2019"
+      funding: Metaprogramme GloFoods
+      leader: "Mathieu Thomas, CR Cirad, AGAP"
+      involvement: "1 month"
+    - title: "BrassicaDiv-Patho"
+      subtitle: "Microbial diversity and microbial networks associated to Brassica napus and its pathogens"
+      dates: "2016–2018"
+      funding: INRA Metaprogramme MEM
+      leader: "Christophe Mougel (DR INRA, Rennes), Thierry Candresse (DR INRA, Bordeaux)"
+      partners: UMR IGEPP, UMR BFP, UMR BioGeCo, UMR EPGV, UMR BioGer
+    - title: "LIONS"
+      subtitle: "Large-scale Integrative approach to unravel the complex relationships between differentiatiON and tumorigenesiS"
+      dates: "2016–2018"
+      funding: Plan Cancer 2015 Inserm
+      partners: IGMM/IBC, MAP5, iSSB Évry, Institut Curie, University of York
+    - title: "LearnBioControl"
+      subtitle: "Learning ecological networks from metabarcoding data: application to biological control"
+      dates: "2016–2018"
+      funding: INRA Metaprogramme MEM
+      partners: INRA/UMR BioGeCo, Imperial College, AgroParisTech/INRA
+    - title: "Hydrogen"
+      subtitle: "Comparative Metagenomic for Measuring Biodiversity"
+      dates: "2015–2018"
+      funding: ANR
+      partners: AgroParisTech/INRA, CEA-CNS-LABIS, INRIA Rennes/Genscale
+    - title: "ABS4NGS"
+      subtitle: "Algorithmic, Bioinformatic and Software solutions for the analysis of Next Generation Sequencing data"
+      dates: "2012–2016"
+      funding: "Investissement d'avenir"
+      partners: Institut Curie, Mines ParisTech, University of Lyon 1, AgroParisTech/INRA
+    - title: "AREA"
+      subtitle: "Analysis of the evolutionary response of tropical forest trees to their environment: genomic and metabolomic approach"
+      dates: "2014–2016"
+      funding: "CNRS Défi \"Enviromics\""
+      partners: AgroParisTech/INRA, UMR EcoFoG, UMR 8638 (CNRS/P5)
+    - title: "BeFast"
+      subtitle: "Deriving Better learning procedures from FASTer algorithms to deal with a huge amount of Data"
+      dates: "2015–2016"
+      funding: PEPS CNRS Fascido
+      leader: "Alain Célisse, MCF, University Lille 1"
+    - title: "Reg4Sel"
+      subtitle: "Regularized methods for Genomic Selection"
+      dates: "2013–2015"
+      funding: SelGen / INRAE
+      leader: "Tristan Mary-Huard, CR INRA/AgroParisTech"
+      partners: UMR MIAP, UMR Le Moulon, GABI
+    - title: "Ploid-Ploid wheat"
+      subtitle: "Unraveling bases of polyploidy and aneuploidy responses in flowering plants, using the wheat ploidy model"
+      dates: "2011–2015"
+      funding: ANR
+      partners: INRA (Rennes, Versailles, Grignon), Génoscope, CNRS
+    - title: "ENORM"
+      subtitle: "Enumeration of Near-Optimal Regulation Misbehaviours"
+      dates: "2013–2014"
+      funding: PEPS CNRS
+      leader: "Étienne Birmelé, PR University Paris 5"
+    - title: "NeMo"
+      subtitle: "Network Motif in Biological Network"
+      dates: "2009–2011"
+      funding: ANR
+      partners: AgroParisTech/INRA, University of Lyon 1, University of Évry
+    - title: "GD2GS"
+      subtitle: "From Genomic Data to Graph Structure"
+      dates: "2005–2008"
+      funding: ANR
+      leader: "Florence d'Alché-Buc, PR Évry"
