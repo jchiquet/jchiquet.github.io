@@ -7,19 +7,19 @@ importance: 3
 category: teaching
 ---
 
-### <span class="glyphicon glyphicon-calendar">Planning prévisionnel 
+### Planning prévisionnel
 
-<table class="table table-striped">
+<table class="table">
     <tbody>
 
     <thead>
       <tr>
         <th>#</th>
-        <th><span class="glyphicon glyphicon-time"></span> date</th>
-        <th><span class="glyphicon glyphicon-tasks"></span> titre</th>
-	<th><span class="glyphicon glyphicon-cutlery"></span> thèmes</th>
-	<th><span class="glyphicon glyphicon-play"></span> TD</th>
-	<th><span class="glyphicon glyphicon-download-alt"></span> PDF imprimable</th>
+        <th>date</th>
+        <th>titre</th>
+	<th>thèmes</th>
+	<th>TD</th>
+	<th>PDF imprimable</th>
 	</tr>
     </thead>
     
@@ -38,7 +38,7 @@ category: teaching
         <td>Structures de données (1)</td>
 	<td>vecteurs</td>
         <td><a href="/assets/isv51/td2-vecteurs.html">html</a></td>
-        <td><a href="/assets/isv51/td2-vecteurs.pdf">fiche</a> - <span class="glyphicon glyphicon-pencil"></span><a href="/assets/isv51/corrections_td2-vecteurs.pdf">corrections</a></td>
+        <td><a href="/assets/isv51/td2-vecteurs.pdf">fiche</a> - <a href="/assets/isv51/corrections_td2-vecteurs.pdf">corrections</a></td>
 	
      </tr>
 
@@ -48,7 +48,7 @@ category: teaching
         <td>Structures de données (2)</td>
 	<td>vecteurs, facteurs</td>
         <td><a href="/assets/isv51/td3-facteurs.html">html</a></td>
-        <td><a href="/assets/isv51/td3-facteurs.pdf">fiche</a> - <span class="glyphicon glyphicon-pencil"></span><a href="/assets/isv51/corrections_td3-facteurs.pdf">corrections</a></td>
+        <td><a href="/assets/isv51/td3-facteurs.pdf">fiche</a> - <a href="/assets/isv51/corrections_td3-facteurs.pdf">corrections</a></td>
       </tr>
 
       <tr>
@@ -65,7 +65,7 @@ category: teaching
         <td>Structures de données (4)</td>
 	<td>listes</td>
         <td><a href="/assets/isv51/td4-matrices.html">html</a></td>
-        <td><a href="/assets/isv51/td4-matrices.pdf">fiche</a> - <span class="glyphicon glyphicon-pencil"></span><a href="/assets/isv51/corrections_td4-matrices.pdf">corrections</a></td>
+        <td><a href="/assets/isv51/td4-matrices.pdf">fiche</a> - <a href="/assets/isv51/corrections_td4-matrices.pdf">corrections</a></td>
       </tr>
 
       <tr>
@@ -82,7 +82,7 @@ category: teaching
         <td>Analyse de données élémentaire (1)</td>
 	<td>Graphes et Statistiques descriptives</td>
         <td><a href="/assets/isv51/td5-stat-desc.html">html</a></td>
-        <td><a href="/assets/isv51/td5-stat-desc.pdf">fiche</a> - <span class="glyphicon glyphicon-pencil"></span><a href="/assets/isv51/corrections_td5-statdesc.pdf">corrections</a></td>
+        <td><a href="/assets/isv51/td5-stat-desc.pdf">fiche</a> - <a href="/assets/isv51/corrections_td5-statdesc.pdf">corrections</a></td>
       </tr>
 
       <tr>
@@ -98,7 +98,7 @@ category: teaching
         <td>13/11/2015</td>
         <td><span class="badge">devoir surveillé</span></td>
 	<td><em>pas de td</em></td>
-        <td colspan="2"><span class="glyphicon glyphicon-pencil"></span><a href="/assets/isv51/ds_isv51_correction.pdf">correction et notes</a></td>
+        <td colspan="2"><a href="/assets/isv51/ds_isv51_correction.pdf">correction et notes</a></td>
       </tr>
 
      <tr>
@@ -107,7 +107,7 @@ category: teaching
         <td>Programmation (1)</td>
 	<td>structures de contrôle, fonctions</td>
         <td><a href="/assets/isv51/td6-prog-dev.html">html</a></td>
-        <td><a href="/assets/isv51/td6-prog-dev.pdf">fiche</a> - <span class="glyphicon glyphicon-pencil"></span><a href="/assets/isv51/corrections_td6-progdev.pdf">corrections</a></td>
+        <td><a href="/assets/isv51/td6-prog-dev.pdf">fiche</a> - <a href="/assets/isv51/corrections_td6-progdev.pdf">corrections</a></td>
     </tr>
 
       <tr>
@@ -122,7 +122,7 @@ category: teaching
    </tbody>
 </table>
 
-### <span class="glyphicon glyphicon-download-alt"></span> Support de cours 
+### Support de cours 
 
 * [fiche résumé des commandes usuelles en R](/assets/pdf/commandes_r.pdf)
 * jeu de slides 0: [Introduction et premiers pas](/assets/isv51/slides0-intro.pdf)
@@ -130,11 +130,11 @@ category: teaching
 * jeu de slides 2: [Analyse de données élémentaire](/assets/isv51/slides2-stat_desc.pdf)
 * jeu de slides 3: [Développement et programmation](/assets/isv51/slides3-programmation.pdf)
 
-### <span class="glyphicon glyphicon-user"></span> Intervenant 
+### Intervenant 
 
 Cours et TD: <julien.chiquet@gmail.com>
 
-### <span class="glyphicon glyphicon-book"></span> Aides, documentations, guides d'utilisation
+### Aides, documentations, guides d'utilisation
 
 #### Sites du projet R
 
