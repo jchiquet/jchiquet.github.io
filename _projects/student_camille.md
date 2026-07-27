@@ -10,6 +10,10 @@ category: 'PhD student (alumni)'
 Camille's PhD was co-supervised with [Christophe Ambroise]()
 (50%/50%), from 2009 to 2012.
 
+### Summary
+
+This thesis develops statistical methods for inferring gene regulatory networks from transcriptomic data that violate the classical independent and identically distributed (iid) sampling assumption, in particular time-course and structured experimental designs. It proposes weighted-Lasso and cooperative-Lasso penalized estimators of Gaussian graphical models that incorporate prior structural information (temporal ordering, replicate structure) to improve network recovery, together with model selection procedures adapted to these dependent settings. The resulting methods are implemented in the SIMoNe R package and applied to real transcriptomic time-course data.
+
 ### PhD manucript
 
 <div class="publications">

@@ -11,6 +11,10 @@ Timothée's PhD was co-supervised with [Pierre
 Barbillon](https://www6.inra.fr/mia-paris/Equipes/Membres/Pierre-Barbillon)
 (50%/50%), from 2016 to 2019.
 
+### Summary
+
+This thesis studies the Stochastic Block Model (SBM) for network data collected under an imperfect, partially observed sampling design. Building on a variational inference framework, it develops estimators that explicitly account for the sampling process, so that latent block structure can be recovered without inferring artefactual clusters induced by missing pairs of observations. The thesis introduces a generic characterization of sampling designs and studies their identifiability with respect to the SBM parameters, and provides the missSBM R package implementing the resulting methodology. Applications are given to seed exchange networks and ecological interaction networks, where sampling is typically incomplete and non-random.
+
 ### PhD manucript
 
 <div class="publications">
