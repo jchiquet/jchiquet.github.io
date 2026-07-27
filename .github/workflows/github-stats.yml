@@ -1,0 +1,257 @@
+name: Update GitHub stats cards
+
+# Generates static SVG cards (user stats + pinned repo cards) via
+# stats-organization/github-readme-stats-action and commits them to the
+# repo. This avoids depending on a live third-party rendering service
+# (github-readme-stats.vercel.app) at page-view time -- see _pages/repositories.md.
+
+on:
+  schedule:
+    - cron: "0 3 * * 1" # weekly, Monday 03:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # --- User stats cards (site.data.repositories.github_users) ---
+
+      - name: "Stats: jchiquet (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=jchiquet&theme=default&hide_border=true&show_icons=true
+          path: assets/img/github-stats/stats-jchiquet-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: "Stats: jchiquet (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=jchiquet&theme=dark&hide_border=true&show_icons=true
+          path: assets/img/github-stats/stats-jchiquet-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Stats: grosssbm (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=grosssbm&theme=default&hide_border=true&show_icons=true
+          path: assets/img/github-stats/stats-grosssbm-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: "Stats: grosssbm (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=grosssbm&theme=dark&hide_border=true&show_icons=true
+          path: assets/img/github-stats/stats-grosssbm-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Stats: pln-team (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=pln-team&theme=default&hide_border=true&show_icons=true
+          path: assets/img/github-stats/stats-pln-team-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: "Stats: pln-team (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=pln-team&theme=dark&hide_border=true&show_icons=true
+          path: assets/img/github-stats/stats-pln-team-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Stats: computorg (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=computorg&theme=default&hide_border=true&show_icons=true
+          path: assets/img/github-stats/stats-computorg-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: "Stats: computorg (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=computorg&theme=dark&hide_border=true&show_icons=true
+          path: assets/img/github-stats/stats-computorg-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # --- Pinned repo cards (site.data.repositories.github_repos) ---
+
+      - name: "Pin: pln-team/plnmodels (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=pln-team&repo=plnmodels&theme=default&hide_border=true
+          path: assets/img/github-stats/pin-pln-team-plnmodels-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: "Pin: pln-team/plnmodels (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=pln-team&repo=plnmodels&theme=dark&hide_border=true
+          path: assets/img/github-stats/pin-pln-team-plnmodels-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Pin: grosssbm/sbm (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=grosssbm&repo=sbm&theme=default&hide_border=true
+          path: assets/img/github-stats/pin-grosssbm-sbm-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: "Pin: grosssbm/sbm (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=grosssbm&repo=sbm&theme=dark&hide_border=true
+          path: assets/img/github-stats/pin-grosssbm-sbm-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Pin: grosssbm/misssbm (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=grosssbm&repo=misssbm&theme=default&hide_border=true
+          path: assets/img/github-stats/pin-grosssbm-misssbm-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: "Pin: grosssbm/misssbm (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=grosssbm&repo=misssbm&theme=dark&hide_border=true
+          path: assets/img/github-stats/pin-grosssbm-misssbm-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Pin: jchiquet/aricode (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=jchiquet&repo=aricode&theme=default&hide_border=true
+          path: assets/img/github-stats/pin-jchiquet-aricode-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: "Pin: jchiquet/aricode (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=jchiquet&repo=aricode&theme=dark&hide_border=true
+          path: assets/img/github-stats/pin-jchiquet-aricode-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Pin: jchiquet/quadrupen (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=jchiquet&repo=quadrupen&theme=default&hide_border=true
+          path: assets/img/github-stats/pin-jchiquet-quadrupen-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: "Pin: jchiquet/quadrupen (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=jchiquet&repo=quadrupen&theme=dark&hide_border=true
+          path: assets/img/github-stats/pin-jchiquet-quadrupen-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Pin: jchiquet/univarclust (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=jchiquet&repo=univarclust&theme=default&hide_border=true
+          path: assets/img/github-stats/pin-jchiquet-univarclust-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: "Pin: jchiquet/univarclust (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=jchiquet&repo=univarclust&theme=dark&hide_border=true
+          path: assets/img/github-stats/pin-jchiquet-univarclust-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Pin: jchiquet/MAP566 (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=jchiquet&repo=MAP566&theme=default&hide_border=true
+          path: assets/img/github-stats/pin-jchiquet-MAP566-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: "Pin: jchiquet/MAP566 (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=jchiquet&repo=MAP566&theme=dark&hide_border=true
+          path: assets/img/github-stats/pin-jchiquet-MAP566-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Pin: jchiquet/MAP573 (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=jchiquet&repo=MAP573&theme=default&hide_border=true
+          path: assets/img/github-stats/pin-jchiquet-MAP573-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: "Pin: jchiquet/MAP573 (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=jchiquet&repo=MAP573&theme=dark&hide_border=true
+          path: assets/img/github-stats/pin-jchiquet-MAP573-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Pin: computorg/computorg.github.io (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=computorg&repo=computorg.github.io&theme=default&hide_border=true
+          path: assets/img/github-stats/pin-computorg-computorg.github.io-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: "Pin: computorg/computorg.github.io (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=computorg&repo=computorg.github.io&theme=dark&hide_border=true
+          path: assets/img/github-stats/pin-computorg-computorg.github.io-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Pin: computorg/computo-quarto-extension (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=computorg&repo=computo-quarto-extension&theme=default&hide_border=true
+          path: assets/img/github-stats/pin-computorg-computo-quarto-extension-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: "Pin: computorg/computo-quarto-extension (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=computorg&repo=computo-quarto-extension&theme=dark&hide_border=true
+          path: assets/img/github-stats/pin-computorg-computo-quarto-extension-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Pin: computorg/template-computo-python (light)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=computorg&repo=template-computo-python&theme=default&hide_border=true
+          path: assets/img/github-stats/pin-computorg-template-computo-python-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: "Pin: computorg/template-computo-python (dark)"
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=computorg&repo=template-computo-python&theme=dark&hide_border=true
+          path: assets/img/github-stats/pin-computorg-template-computo-python-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/img/github-stats/*.svg
+          git commit -m "Update GitHub stats cards" || exit 0
+          git push

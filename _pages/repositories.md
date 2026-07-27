@@ -10,25 +10,14 @@ nav_order: 3
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
+    <div class="repo p-2 text-center">
+      <a href="https://github.com/{{ user }}">
+        <img class="only-light w-100" alt="{{ user }}" src="{{ '/assets/img/github-stats/stats-' | append: user | append: '-light.svg' | relative_url }}">
+        <img class="only-dark w-100" alt="{{ user }}" src="{{ '/assets/img/github-stats/stats-' | append: user | append: '-dark.svg' | relative_url }}">
+      </a>
+    </div>
   {% endfor %}
 </div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-  {% if site.data.repositories.github_users.size > 1 %}
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
-  ---
-
-{% endfor %}
-{% endif %}
 {% endif %}
 
 ## Selected GitHub Repositories
@@ -36,7 +25,20 @@ nav_order: 3
 {% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
+    {% assign slug = repo | replace: '/', '-' %}
+    <div class="repo p-2 text-center">
+      <a href="https://github.com/{{ repo }}">
+        <img class="only-light w-100" alt="{{ repo }}" src="{{ '/assets/img/github-stats/pin-' | append: slug | append: '-light.svg' | relative_url }}">
+        <img class="only-dark w-100" alt="{{ repo }}" src="{{ '/assets/img/github-stats/pin-' | append: slug | append: '-dark.svg' | relative_url }}">
+      </a>
+    </div>
   {% endfor %}
 </div>
 {% endif %}
+
+<p class="text-muted" style="font-size: 0.85rem;">
+  Cards are static images refreshed weekly by a
+  <a href="https://github.com/jchiquet/jchiquet.github.io/blob/master/.github/workflows/github-stats.yml">GitHub Action</a>,
+  not fetched live -- so they keep working even when third-party rendering
+  services are unavailable.
+</p>
