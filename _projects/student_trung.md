@@ -16,7 +16,7 @@ This thesis develops a penalized multivariate learning approach that jointly inf
 
 <div class="publications">
 
-{% bibliography -f student_theses -q @*[author ~= Ha]* %}
+{% bibliography -f student_theses -q @*[author ~= \bHa\b]* %}
 
 </div>
 
@@ -24,7 +24,9 @@ This thesis develops a penalized multivariate learning approach that jointly inf
 
 <div class="publications">
 
-{% bibliography -f chiquet_journal -q @*[author ~= Ha]* %}
+{% bibliography -f chiquet_journal -q @*[author ~= \bHa\b]* %}
+
+{% bibliography -f chiquet_inprogress -q @*[author ~= \bHa\b]* %}
 
 </div>
 

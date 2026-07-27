@@ -27,8 +27,6 @@ This thesis investigates how gene expression is reprogrammed following allopolyp
 
 <div class="publications">
 
-{% bibliography -f chiquet_journal -q @*[author ~= Chelaifa]* %}
-
 {% bibliography -f chiquet_journal -q @*[author ~= Chalabi]* %}
 
 </div>
