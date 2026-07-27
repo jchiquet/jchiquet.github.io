@@ -6,7 +6,7 @@ description: INRAE Senior Researcher in Statistical Learning, Université Paris-
 subtitle: Senior Research in Statistical Learning, <a href='https://mia-ps.inrae.fr/'>Université Paris-Saclay/AgroParisTech/INRAE</a>
 profile:
   align: right
-  image: julien_2025.jpg
+  image: julien_2026.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p><small>UMR MIA Paris-Saclay</small></p>
