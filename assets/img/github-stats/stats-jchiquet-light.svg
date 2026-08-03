@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Julien Chiquet's GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 78, Total Commits  (last year) : 1183, Total PRs: 174, Total Issues: 191, Contributed to (last year): 47</desc>
+        <title id="titleId">Julien Chiquet&#39;s GitHub Stats, Rank: A</title>
+        <desc id="descId">Total Stars Earned: 79, Total Commits  (last year) : 1172, Total PRs: 175, Total Issues: 191, Contributed to (last year): 44</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 43.016193891567745;
+        stroke-dashoffset: 42.7337995362427;
       }
     }
   
@@ -126,7 +126,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >Julien Chiquet's GitHub Stats</text>
+      >Julien Chiquet&#39;s GitHub Stats</text>
     </g>
       </g>
     
@@ -162,7 +162,7 @@
         x="224.01"
         y="12.5"
         data-testid="stars"
-      >78</text>
+      >79</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -192,7 +192,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >174</text>
+      >175</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -222,7 +222,7 @@
         x="224.01"
         y="12.5"
         data-testid="contribs"
-      >47</text>
+      >44</text>
     </g>
   </g>
     </svg>
