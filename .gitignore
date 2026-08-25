@@ -10,4 +10,4 @@ Gemfile.lock
 vendor
 node_modules
 al-folio-upgrade-report.md
-
+snowflake.log
