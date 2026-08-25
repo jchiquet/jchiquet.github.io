@@ -16,7 +16,7 @@ profile:
     <p><small><i class="fa fa-phone" aria-hidden="true"></i> +33(0)1.89.10.09.37 </small></p>
     <p><small><a href="mailto:julien.chiquet[at]inrae[dot]fr">julien.chiquet[at]inrae[dot]fr</a</small></p>
     <p><small><a href="assets/pdf/hdr_chiquet.pdf">Habilitation (12/2015)</a></small></p>
-    <p><small><a href="assets/pdf/dossier-scientifique-en.pdf">Academic dossier (07/2026)</a></small></p>
+    <p><small><a href="assets/pdf/dossier-scientifique-en.pdf">Academic dossier (08/2026)</a></small></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
