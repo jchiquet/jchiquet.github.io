@@ -114,7 +114,7 @@
     
 
     <text class="description" x="25" y="-5"> 
-      <tspan dy="1.2em" x="25">Material for MAP566 - Statistics in Action with R at l'X</tspan>
+      <tspan dy="1.2em" x="25">Material for MAP566 - Statistics in Action with R at l&#39;X</tspan>
     </text>
 
     <g transform="translate(30, 45)">
