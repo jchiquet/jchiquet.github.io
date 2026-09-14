@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Julien Chiquet&#39;s GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 79, Total Commits  (last year) : 1246, Total PRs: 177, Total Issues: 194, Contributed to (last year): 45</desc>
+        <desc id="descId">Total Stars Earned: 79, Total Commits  (last year) : 1250, Total PRs: 178, Total Issues: 194, Contributed to (last year): 45</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,11 +73,12 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 43.19772645664409;
+        stroke-dashoffset: 43.10876106490175;
       }
     }
   
   
+          
 
           
       /* Animations */
@@ -102,9 +103,15 @@
         </style>
 
         
+        <defs>
+          
+          
+        </defs>
+        
 
         <rect
           data-testid="card-bg"
+          class="card-bg"
           x="0.5"
           y="0.5"
           rx="4.5"
@@ -177,7 +184,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >1.2k</text>
+      >1.3k</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -192,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >177</text>
+      >178</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
